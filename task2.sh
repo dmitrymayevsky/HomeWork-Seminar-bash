@@ -14,3 +14,6 @@ export PATH="$PATH:$dir"
 echo "Новое значение PATH:"
 echo "$PATH"
 
+#Чтобы сделать изменения постоянными:
+#echo 'export PATH="$PATH:/home/user/my_scripts"' >> ~/.bashrc
+#source ~/.bashrc 
